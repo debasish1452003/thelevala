@@ -1,0 +1,39 @@
+*{
+    font-size: 25px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgba(59, 57, 57, 0.936);
+}
+
+#home {
+    /* position: relative; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 1000px;
+    justify-content: center;
+    align-items: center;
+    height: 2500px;
+}
+
+#home::before {
+    content: " ";
+    position: absolute;
+    background: url('images/.png');
+    top: 0px;
+    left: 0px;
+    height: 3000px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+    /* font-family: 'Baloo 2', cursive; */
+}
